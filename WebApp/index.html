@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCV Video Stream</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #6e2f2f;
+        }
+        img {
+            width: 640px; /* Adjust this value to increase or decrease the video size */
+            height: 480px; /* This ensures the video maintains its aspect ratio */
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <img id="videoStream" src="http://localhost:5000/video" alt="Video Stream">
+</body>
+</html>
